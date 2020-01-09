@@ -1,3 +1,3 @@
 # my Portfolio
 
-A showwcase of my work from the program.
+A showcase of my work from the program.
