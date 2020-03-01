@@ -1,60 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
   <head>
+    <meta charset="utf-8"/>
     <title>Portfolio | Brian E. Mallen</title>
     <meta name="viewport" content="width=device-width, inital-scale=1">
-    <!-- Reset -->
-    <link rel="stylesheet" href="css/reset.css">
-    <!-- Material Design Lite -->
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-deep_orange.min.css">
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
-    <header class="mdl-layout__header mdl-layout__header--transparent">
-      <h1>Brian E. Mallen </h1>
-      <p class="slogan"> Product Designer in the Tri-State Area </p>
+    <nav>
+      <a href="/"><img src="images/Logo.png" alt="Brian E. Mallen Logo"></a>
+      <ul>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="/pdf/Resume.pdf">Resume</a></li>
+        <li><a href="/Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <header>
+        <div>
+          <h1>Hi, I'm Brian</h1>
+          <h3>NJ based Product Designer</h3>
+          <p class="detail"> I’m a Product Designer and former small business exec, looking to improve human experience through the problem-solving and detailed analysis.</p>
+        </div>
     </header>
-    <main class="mdl-layout__content mdl-grid">
-      <div class="project featured-project mdl-grid mdl-cell mdl--cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
-        <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
-        </div>
-        <div class="mdl-cell mdl-cell--7-col">
-          <h2 class="mdl-card__title-text">Featured Project Name</h2>
-          <p class="project-description mdl-card__supporting-text">Project description text</p>
-        </div>
-      </div>
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+    <main>
+      <h2 id="Work">Case Studies</h2>
+      <section>
         <div>
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
+          <h4>Achieve</h4>
+          <ul>
+            <li>User Research</li>
+            <li>UX Design</li>
+            <li>Visual Design</li>
+            <li>Brand Identity</li>
+            <li>Web Development</li>
+          </ul>
+          <p>Goal and habit achievement app with a customizeable experience to help the user best reach their objectives.</p>
+          <a href="#">Coming Soon</a>
         </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text">Project Name</h2>
-        </div>
-          <div class = "mdl-card__supporting-text">Project description text</div>
-      </div>
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
         <div>
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
+          <img src="images/ComingSoon.png" alt="Coming Soon">
         </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text">Project Name</h2>
-        </div>
-          <div class = "mdl-card__supporting-text">Project description text</div>
-      </div>
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+      </section>
+      <section>
         <div>
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
+          <h4>SkyDrive</h4>
+          <ul>
+            <li>User Research</li>
+            <li>UX Design</li>
+            <li>Visual Design</li>
+            <li>Brand Identity</li>
+          </ul>
+          <p>A cloud storage app with top of the line security and advanced backup settings, allowing the user more control over their experience.</p>
+          <a href="/project.html">See More</a>
         </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text">Project Name</h2>
+        <div>
+          <img src="images/SkyDrive.png" alt="SkyDrive Logo">
         </div>
-          <div class = "mdl-card__supporting-text">Project description text</div>
-      </div>
+      </section>
+      <section>
+        <h4>Find out more <a href="/about.html">About me</a>.</h4>
+        <p>Looking to work together, or get more info?</p>
+          <a href="contact.html">Say Hello</a>
+      </section>
     </main>
     <footer class="mdl-mini-footer">
       <ul class="mdl-mini-footer__link-list">
@@ -69,8 +79,8 @@
           </a>
         </li>
         <li>
-          <a href="https://www.facebook.com/Brian.Mallen">
-            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          <a href="https://www.dribbble.com/Bmallen89">
+            <i class="fa fa-dribbble-square" aria-hidden="true"></i>
           </a>
         </li>
         <li>
@@ -84,6 +94,7 @@
           </a>
         </li>
       </ul>
+      <p>Designed and developed by Brian Mallen © Copyright 2020</p>
     </footer>
   </body>
 </html>
