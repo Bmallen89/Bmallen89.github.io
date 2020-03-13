@@ -574,11 +574,6 @@ padding: 1.6rem 0 0;
 }
 
 @media screen and (max-width:600px) {
-  h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  padding-bottom: 2.4rem;
-  }
 
   h1 {
   color: #04C1DB;
@@ -616,15 +611,6 @@ padding: 1.6rem 0 0;
   line-height: 2.4rem;
   }
 
-  a {
-  color: #D6003C;
-  font-family: 'Comfortaa',cursive;
-  font-size: 2.0rem;
-  font-weight: 700;
-  line-height: 2.4rem;
-  text-decoration: none;
-  }
-
   .hdetail {
   color: #ffffff;
   font-family: 'Comfortaa',cursive;
@@ -650,23 +636,9 @@ padding: 1.6rem 0 0;
   /* CTA buttons */
 
   .cta {
-  background: #D6003C;
-  border-radius: 2.4rem;
-  color: #ffffff;
   display: block;
-  font-family: 'Comfortaa',cursive;
   font-size: 2.0rem;
-  line-height: 2.4rem;
-  margin-right: 2.4rem;
-  padding: 1.2rem 3.2rem;
-  text-align: center;
   margin: 0 auto;
-  }
-
-  .cta-l {
-  display: block;
-  margin: 0 0;
-  padding: 1.2rem 6rem;
   }
 
 
@@ -696,29 +668,9 @@ padding-bottom: 4.8rem;
 }
 
 /***Nav***/
-nav {
-  background: #ffffff;
-  height: 6.4rem;
-  margin: auto;
-  padding: .8rem;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-nav article {
-  margin: 0 auto;
-  width: 82%;
-}
 
 .desktop {
   display: none;
-}
-
-
-/* Logo */
-.logo {
- display: inline-block;
 }
 
 /***Mobile Menu***/
@@ -793,11 +745,6 @@ header {
 padding: 4.8rem 0;
 }
 
-header article {
- margin: 0 auto;
- width: 82%;
-}
-
 header article .space {
   margin-bottom: 4.8rem;
 }
@@ -813,22 +760,22 @@ section {
 padding: 4.8rem 0;
 }
 
-/* main section will be used for background color. Second for container */
-section section {
-width: 82%;
-margin: 0 auto;
-padding: 0 0;
+.persona img {
+  max-width: 10rem;
+  padding-bottom: 0;
+  margin-bottom: .8rem;
 }
 
-
-
-
-
+.fig img, figure img{
+display: block;
+margin: 0 auto;
+padding-bottom: 0;
+}
 
 /***Grids***/
 /* Index grid for work display */
 .work-grid, .about-grid, .highlight, .cs-grid, .cs-img {
-display: block;
+  display: block;
 
 }
 
@@ -837,15 +784,15 @@ display: block;
 }
 
 .work-grid h4, .highlight h3, .cs-grid h5 {
-padding-bottom: .8rem;
+  padding-bottom: .8rem;
 }
 
 .work-grid img, .about-grid img, .cs-grid img, .cs-img img {
-width: 100%;
-max-width: 47.6rem;
-padding: 0 0 4.8rem;
-margin: 0 auto;
-text-align: center;
+  margin: 0 auto;
+  max-width: 47.6rem;
+  padding: 0 0 4.8rem;
+  text-align: center;
+  width: 100%;
 }
 
 .cs-grid .item-mobile2 {
@@ -861,28 +808,28 @@ text-align: center;
 }
 
 .roles {
-display:block;
-padding-right: 1.6rem;
-padding-bottom: 1.6rem;
-float: none;
+  display:block;
+  float: none;
+  padding-bottom: 1.6rem;
+  padding-right: 1.6rem;
 }
 
 .tools {
-display:block;
-vertical-align: top;
-float: none;
+  display:block;
+  float: none;
+  vertical-align: top;
 }
 
 .item1 {
-grid-column: 1;
-margin: 0 auto;
-display: block;
+  display: block;
+  grid-column: 1;
+  margin: 0 auto;
 }
 
 .item3 {
-grid-column: 1;
-margin: 0 auto;
-display: block;
+  display: block;
+  grid-column: 1;
+  margin: 0 auto;
 }
 
 .cs-grid .item-mobile{
@@ -903,8 +850,6 @@ line-height: 3.6rem;
 /* Footer */
 
 footer {
-width: 82%;
-margin: 0 auto;
 text-align: center;
 }
 
@@ -916,17 +861,7 @@ text-align: center;
   padding-bottom: 1.6rem;
 }
 
-.persona img {
-  max-width: 10rem;
-  padding-bottom: 0;
-  margin-bottom: .8rem;
-}
 
-.fig img, figure img{
-display: block;
-margin: 0 auto;
-padding-bottom: 0;
-}
 
 }
 
