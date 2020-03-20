@@ -211,15 +211,15 @@ padding: 12rem 0;
 }
 
 .index{
-background: url(../images/hero.png) center / cover;
+background: url(../images/Hero-Image.png) center / cover;
 }
 
 .about {
 background: url(../images/about-hero.png) center / cover;
 }
 
-.sd {
-background: url(../images/sd.png) center / cover;
+.SD {
+background: url(../CaseStudies/SkyDrive/images/hero.png) center / cover;
 }
 
 header article {
@@ -617,9 +617,7 @@ padding: 1.6rem 0 0;
   line-height: 3.2rem;
   }
 
-  header article .space {
-    margin-bottom: 4.8rem;
-  }
+
 
 p, li {
   font-size: 1.6rem;
