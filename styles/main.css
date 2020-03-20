@@ -211,15 +211,15 @@ padding: 12rem 0;
 }
 
 .index{
-background: url(../images/Hero-Image.png) center / cover;
+background: url(../images/hero.png) center / cover;
 }
 
 .about {
 background: url(../images/about-hero.png) center / cover;
 }
 
-.SD {
-background: url(../CaseStudies/SkyDrive/images/hero.png) center / cover;
+.sd {
+background: url(../images/sd.png) center / cover;
 }
 
 header article {
