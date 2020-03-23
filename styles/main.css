@@ -201,9 +201,6 @@ nav article {
  margin-left: 2.4rem;
 }
 
-
-
-
 /***Header***/
 header {
 margin-top: 6.4rem;
@@ -218,7 +215,7 @@ background: url(../images/hero.png) center / cover;
 background: url(../images/about-hero.png) center / cover;
 }
 
-.SD {
+.sd {
 background: url(../images/sd.png) center / cover;
 }
 
@@ -934,9 +931,6 @@ text-align: center;
 .copy {
   padding-bottom: 1.6rem;
 }
-
-
-
 }
 
 /* Background Colors */
