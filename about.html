@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, inital-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,700|Libre+Baskerville:400,700|Montserrat:400,600,700&display=swap" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,700%7Libre+Baskerville:400,700%7Montserrat:400,600,700&display=swap" type="text/css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4dda1ed5eb.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/png" href="images/favicon2.png">
   </head>
@@ -15,19 +15,19 @@
       <article class="desktop">
         <a href="index.html"><img src="images/logo.png" class="logo" alt="Brian E. Mallen Logo"></a>
           <ul class="menu">
-          <li><a href="about.html">About</a></li>
-          <li><a href="index.html#Work">Work</a></li>
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="about.html" class="active">About</a></li>
           <li><a href="pdf/resume.pdf">Resume</a></li>
-          <li><a href="mailto:bmallen89@gmail.com?Subject=You&apos;re%20awesome,%20we&apos;re%20awesome,%20let&apos;s%20work%20together" target="_blank">Contact</a></li>
+          <li><a href="mailto:bmallen89@gmail.com?Subject=You&apos;re%20awesome,%20we&apos;re%20awesome,%20let&apos;s%20work%20together" target="_blank">Email me</a></li>
         </ul>
       </article>
       <article class="topnav">
         <a href="/"><img src="images/logo.png" class="logo" alt="Brian E. Mallen Logo"></a>
         <ul id="myLinks">
-          <li><a href="about.html">About</a></li>
-          <li><a href="index.html#Work">Work</a></li>
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="about.html" class="active">About</a></li>
           <li><a href="pdf/resume.pdf">Resume</a></li>
-          <li><a href="mailto:bmallen89@gmail.com?Subject=You&apos;re%20awesome,%20we&apos;re%20awesome,%20let&apos;s%20work%20together" target="_blank">Contact</a></li>
+          <li><a href="mailto:bmallen89@gmail.com?Subject=You&apos;re%20awesome,%20we&apos;re%20awesome,%20let&apos;s%20work%20together" target="_blank">Email me</a></li>
         </ul>
         <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
           <div class="bars" onclick="changeFunction(this)">
@@ -49,7 +49,7 @@
     <main>
       <h2>The inside cover</h2>
       <section>
-        <section class="about-grid">
+        <div class="about-grid">
           <img src="images/about1.png" class="item3" alt="My nephew Sam and Me">
           <article class="item1">
             <h4>Where it all began</h4>
@@ -59,10 +59,10 @@
               Once I graduated college, I found a full-time job at a day camp/ event facility as their Assistant Director. Working in a small business, I had a diverse set of responsibilities.
               My favorite was designing our websites, graphics, and marketing material. My time spent there helped me grow as a communicator, leader, and as a person. </p>
           </article>
-        </section>
+        </div>
       </section>
       <section class="smokeb">
-        <section class="about-grid">
+        <div class="about-grid">
           <img src="images/about2.png" class="item3" alt="A sample of my Design work">
           <article class="item1">
             <h4>My path to design</h4>
@@ -73,10 +73,10 @@
               Bloc also helped me hone and complete my skills. I worked on several solo projects creating user flows, wireframes, Hifi Mockups, and prototypes for both desktop and mobile.
               I have conducted usability and preference tests to gauge interaction and create the best environment for the user.</p>
           </article>
-        </section>
+        </div>
       </section>
       <section>
-        <section class="about-grid">
+        <div class="about-grid">
           <img src="images/about3.png" class="item3" alt="Travelling in Israel">
           <article class="item1">
             <h4>Following my passion</h4>
@@ -86,14 +86,14 @@
               I am also very passionate about mental health education and research. I suffered many concussions as a child and have had my own battles with mental health.
               I advocate for awareness, to remove the stigma, and to let those suffering know it’s okay to ask for help. In the future I hope to communicate my support not only with words, but through design.</p>
           </article>
-        </section>
+        </div>
       </section>
       <section class="final">
-        <section>
-          <h4>Check out some of <a href="index.html#Work" class="in-link">my work</a>.</h4>
-          <p>Looking to team up, or get more info?</p>
-          <a href="mailto:bmallen89@gmail.com?Subject=You&apos;re%20awesome,%20we&apos;re%20awesome,%20let&apos;s%20work%20together" target="_blank" class="cta">Say Hello</a>
-        </section>
+        <div>
+          <h4>Check out some of <a href="index.html#work" class="in-link">my work</a>.</h4>
+          <p>Have a project you want to me to work on?</p>
+          <a href="mailto:bmallen89@gmail.com?Subject=You&apos;re%20awesome,%20we&apos;re%20awesome,%20let&apos;s%20work%20together" target="_blank" class="cta">Send me an email</a>
+        </div>
       </section>
     </main>
     <footer>
