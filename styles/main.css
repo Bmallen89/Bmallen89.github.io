@@ -142,6 +142,10 @@ max-width: 776px;
 padding-bottom: 0;
 }
 
+.tnone {
+padding-top: 0;
+}
+
 .small{
 padding-bottom: 1.6rem;
 }
@@ -225,6 +229,10 @@ background: url(../images/about-hero.png) center / cover;
 
 .sd {
 background: url(../images/sd.png) center / cover;
+}
+
+.achieve {
+background: url(../images/achieve.jpg) center / cover;
 }
 
 header article {
@@ -510,6 +518,11 @@ background: #ffffff;
 .ud {
 list-style-type: circle;
 padding-left: 2rem;
+}
+
+.il {
+  list-style-type: disc;
+  padding-left: 8rem;
 }
 
 
