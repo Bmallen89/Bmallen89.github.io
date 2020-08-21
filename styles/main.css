@@ -79,6 +79,7 @@ color: #FF4D5A;
 
 .active {
   color: #072142;
+  border-bottom: .15rem solid #072142;
 }
 
 .active:hover {
